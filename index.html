@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="portfolio.css">
+
+</head>
+
+<body>
+  <div class="firstpage">
+    <nav class="navbar navbar-dark bg-dark stick-nav" aria-label="Dark offcanvas navbar">
+      <div class="container-fluid">
+        <div id="nav-but">
+          <button class="navbar-toggler me-2" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbarDark" aria-controls="offcanvasNavbarDark" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon btn-outline-info"></span>
+          </button>
+          <a class="navbar-brand text-info fs-3" href="#"> <span class="text-warning">Port</span>folio</a>
+        </div>
+
+        <form class="d-flex" role="search">
+          <input class="form-control me-2 " type="search" placeholder=" Search eg.web development" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <!-- side bar -->
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbarDark"
+          aria-labelledby="offcanvasNavbarDarkLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title fs-3" id="offcanvasNavbarDarkLabel ">Portfolio</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 280px;">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+              <span class="fs-4 text-warning">Gautam kumar</span>
+            </a>
+            <hr>
+            <!-- side bar items -->
+            <ul class="nav nav-pills flex-column mb-auto side-nav-item">
+              <li class="nav-item">
+
+                <a href="#" class="nav-link active" aria-current="page">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+
+                <a href="#"><i class="fa-solid fa-award"></i>
+                  Experience
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#">
+                  <i class="fa-solid fa-address-card"></i>
+                  About us
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-address-book"></i>
+                  Contact us
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-comment"></i>
+                  Feedback
+                </a>
+              </li>
+            </ul>
+            <hr>
+            <div class="dropdown my-0">
+              <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="IMG_20221019_114602.jpg" alt="" width="78" height="84"
+                  class="rounded-circle me-2 sidebar-img">
+                <strong></strong>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                <li><a class="dropdown-item" href="#">New project...</a></li>
+                <li><a class="dropdown-item" href="#">Events</a></li>
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- intro intro-->
+
+    <div class="container-fluid" style="max-width: 50%; margin: auto; text-align: center; justify-content: center;">
+      <img src="FaceApp_1603086865252-removebg-preview.png" class=" rounded-circle mx-auto d-block first-image"
+        alt="Gautam image">
+      <main class="px-3 intro-content">
+
+        <h1>I'am Gautam Kumar</h1>
+        <p class="lead tex-dark"><span>"</span> Hello everyone!<span> Welcome to My Web Portfolio!</span> I'm Gautam
+          Kumar, a
+          passionate beginner in the world of web development I'm thrilled to share my journey, skills, and projects
+          through this personal portfolio website<span> "</span></p>
+        <!-- <p>
+        <a href="#" class="btn btn-lg  fw-bold  intro-button">Read more</a>
+      </p> -->
+      </main>
+    </div>
+    <!-- read more -->
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary intro-button" data-bs-toggle="modal" data-bs-target="#read-more">
+      Read More
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="read-more" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Gautam kumar</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+
+            I'm Gautam Kumar, a second-year student at IIT Bhubaneswar pursuing a 5-year dual degree in B.Tech
+            Mechanical
+            Engineering and M.Tech Manufacturing. I'm exploring the world of web development, learning HTML, CSS, and
+            JavaScript. When I'm not studying, I enjoy teaching, chatting with friends, and connecting with my parents.
+          </div>
+
+        </div>
+      </div>
+          
+    </div>
+    <h5>.....</h5>
+    <!-- <h1 class="project-card-heading">Project</h1> -->
+  </div>
+  <!-- project cards -->
+  <h1 class="project-card-heading">Project :</h1>
+  <div class="container project-card">
+    <div class="card project-cards" style="width: 18rem;">
+      <img src="webp1.jpg" class="card-img-top" alt="..." style="width: 18rem; height:12rem; margin: auto;">
+      <div class="card-body">
+        <h5 class="card-title">Project NO.1</h5>
+        <p class="card-text"><span>Own Chrome Search Page</span><br>Using HTML , CSS and JAVASCRIPT  .</p>
+        <a href="https://gautam20039716.github.io/Gautam-chrome/"  target="_blank" class="btn btn-primary project_card_but">Go and See</a>
+      </div>
+    </div>
+    <div class="card project-cards" style="width: 18rem;">
+      <img src="webp2.jpeg" class="card-img-top" alt="..." style="width: 18rem; height:12rem; margin: auto;">
+      <div class="card-body">
+        <h5 class="card-title">Project NO.2</h5>
+        <p class="card-text"><span>Education sample website</span><br>Using HTML , CSS.</p>
+        <a href="https://gautam20039716.github.io/educationproject/"  target="_blank"  class="btn btn-primary project_card_but">Go and See</a>
+      </div>
+    </div>
+    <div class="card project-cards" style="width: 18rem;">
+      <img src="webp3.jpeg" class="card-img-top" alt="..." style="width: 18rem; height:12rem; margin: auto;">
+      <div class="card-body">
+        <h5 class="card-title">Project NO.3</h5>
+        <p class="card-text"><span>Coaching Website</span><br>Using HTML , CSS and Framwork-Bootstrap  .</p>
+        <a href="https://gautam20039716.github.io/Adhyayan-Coaching-Centre/"  target="_blank" class="btn btn-primary project_card_but">Go and See</a>
+      </div>
+    </div>
+ 
+  
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</html>
