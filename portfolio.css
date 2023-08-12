@@ -106,7 +106,7 @@
     margin: auto;
     margin-bottom: 10px;
 }
-@media (max-width:420px){
+@media (max-width:578px){
     .first-image{
         width: 250px;
         overflow: hidden;
@@ -122,6 +122,75 @@
     }
     .main-intro{
         max-width: 100%;
+        margin: auto; 
+        text-align: center;
+        justify-content: center;
+    }
+    .project-card{
+    
+        margin-left: 0px;
+        padding: 0px;
+    
+    }
+}
+@media (min-width:579px) and (max-width:729px){
+    .main-intro{
+        max-width: 100%;
+        margin: auto; 
+        text-align: center;
+        justify-content: center;
+    }
+}
+@media (min-width:730px) and (max-width:960px){
+    .first-image{
+        width: 250px;
+        overflow: hidden;
+        height: 250px;
+        border: 5px double black ;
+        border-radius: 100%;
+        margin-top: 10px;
+        
+        background-color:rgb(184, 231, 231);
+        box-shadow: 0px 0px 10px grey;
+        transform: rotate(-2deg);
+        
+    }
+    .main-intro{
+        max-width: 100%;
+        margin: auto; 
+        text-align: center;
+        justify-content: center;
+    }
+    .project-cards{
+        float: left;
+        
+        margin-bottom: 20px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .project-card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 10px;
+    
+    }
+}
+
+@media (min-width:1078px) and (max-width:1200px){
+    .project-card{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-left: 10px;
+    
+    }
+    .project-card{
+    
+        margin-left: 0px;
+        padding: 0px;
+    
+    }
+    .main-intro{
+        max-width: 80%;
         margin: auto; 
         text-align: center;
         justify-content: center;
