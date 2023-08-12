@@ -33,6 +33,12 @@
     transform: scale(1.04);
 
 }
+.main-intro{
+    max-width: 50%;
+    margin: auto; 
+    text-align: center;
+    justify-content: center;
+}
 .first-image{
     width: 250px;
     overflow: hidden;
@@ -48,10 +54,14 @@
 }
 .intro-content h1{
     font-family: serif;
+    text-align: center;
 }
 .intro-content p span{
     font-size: 20px;
     color: blue;
+}
+.intro-content p{
+    text-align: center;
 }
 .intro-button{
     
@@ -96,3 +106,25 @@
     margin: auto;
     margin-bottom: 10px;
 }
+@media (max-width:420px){
+    .first-image{
+        width: 250px;
+        overflow: hidden;
+        height: 30vh;
+        border: 5px double black ;
+        border-radius: 100%;
+        margin-top: 10px;
+        
+        background-color:rgb(184, 231, 231);
+        box-shadow: 0px 0px 10px grey;
+        transform: rotate(-2deg);
+        
+    }
+    .main-intro{
+        max-width: 100%;
+        margin: auto; 
+        text-align: center;
+        justify-content: center;
+    }
+}
+
